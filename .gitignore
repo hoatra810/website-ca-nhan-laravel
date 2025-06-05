@@ -19,7 +19,6 @@
 /storage/*.key
 /storage/pail/
 !storage/logs/
-!storage/logs/lien_he.txt
 /vendor
 Homestead.json
 Homestead.yaml
