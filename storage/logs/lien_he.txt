@@ -1,4 +1,0 @@
-[2025-05-29 04:13:56] Họ tên: Thanh Hoa | Email: daonguyen081004@gmail.com | Nội dung: Mình có một dự án cần cộng tác lập trình web, bạn có hứng thú không?
-[2025-05-29 04:15:03] Họ tên: Thanh Hiền | Email: thanhhien010803@gmail.com | Nội dung: Chào Trà, mình có vài câu hỏi về Laravel, bạn có thể hỗ trợ không?
-[2025-06-01 12:25:13] Họ tên: Thanh Trà | Email: daonguyen081004@gmail.com | Nội dung: Tôi muốn liên hệ để làm dự án cùng bạn.
-[2025-06-01 12:33:04] Họ tên: Thanh Bình | Email: daonguyen081004@gmail.com | Nội dung: Mình muốn liên hệ.

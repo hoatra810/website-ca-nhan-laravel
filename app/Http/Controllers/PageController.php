@@ -1,9 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Contact;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 
 class PageController extends Controller
 {
@@ -21,20 +20,15 @@ class PageController extends Controller
 
     public function handleContact(Request $request)
     {
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'message' => 'required|string|max:1000',
+        Contact::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message,
         ]);
-
-        $log = "[" . now() . "] Họ tên: " . $validated['name'] .
-            " | Email: " . $validated['email'] .
-            " | Nội dung: " . $validated['message'] . PHP_EOL;
-
-        file_put_contents(storage_path('logs/lien_he.txt'), $log, FILE_APPEND);
 
         return redirect('/contact')->with('success', 'Gửi liên hệ thành công!');
     }
+
 
 
 }
